@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 export function Hero() {
   return <section className="flex">
@@ -12,8 +13,8 @@ export function Hero() {
         Acompanhe o engajamento com Analytics de cliques
       </h2>
       <div className="flex items-center gap-2 w-full mt-[10vh]">
-        <span className="text-white text-xl">projectinbio.com</span>
-        <input type="text" />
+        <span className="text-white text-xl">projectinbio.com/</span>
+        <Input />
         <Button>Criar agora</Button>
       </div>
     </div>
