@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 export function ProjectCard() {
-  return <div className="w-[430px] h-[132px] flex gap-5 bg-background-secondary p-3 rounded-[20px] border border-transparent hover:border-border-secondary">
+  return <div className="w-[340px] h-[132px] flex gap-5 bg-background-secondary p-3 rounded-[20px] border border-transparent hover:border-border-secondary">
     <div className="size-24 rounded-md overflow-hidden flex-shrink-0">
       <Image src="/project1.jpg" alt="Project" className="w-full h-full object-cover" width={97} height={109} />
     </div>
